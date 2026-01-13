@@ -1,0 +1,5 @@
+Hello, world! Hello...
+This is a SAMPLE text file.
+New line: hello-world; hello? 'hello' — and HELLO again.
+
+Punctuation should be ignored. Case should be ignored too.
