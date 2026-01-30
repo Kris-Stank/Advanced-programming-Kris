@@ -4,10 +4,10 @@ from pathlib import Path
 from typing import Any, Dict, List
 
 
-def safe_average(grades: List[float]) -> float | None:
+def safe_average(grades: List[int]) -> int | None:
     if not grades:
         return None
-    return sum(grades) / len(grades)
+    return sum(grades) // len(grades)
 
 
 def load_json(path: Path) -> Any:
@@ -44,10 +44,10 @@ def main() -> None:
         if not isinstance(grades, list):
             raise TypeError("Student 'grades' must be a list")
 
-        numeric_grades: List[float] = []
+        numeric_grades: List[int] = []
         for g in grades:
             try:
-                numeric_grades.append(float(g))
+                numeric_grades.append(int(g))
             except (TypeError, ValueError):
                 continue
 

@@ -30,13 +30,13 @@ class BankAccount:
 
 
 def main() -> None:
-    acc = BankAccount("Ice Nice gospodin", 100.0)
+    acc = BankAccount("Ice Nice gospodin", 34000)
     print(acc)
 
     acc.deposit(50)
     print("After deposit:", acc.get_balance())
 
-    acc.withdraw(30)
+    acc.withdraw(50000)
     print("After withdraw:", acc.get_balance())
 
 

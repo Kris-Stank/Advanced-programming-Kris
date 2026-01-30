@@ -1,0 +1,23 @@
+Total lines: 5
+Total words: 27
+
+Word frequency:
+hello: 5
+be: 2
+ignored: 2
+should: 2
+world: 2
+'hello': 1
+a: 1
+again: 1
+and: 1
+case: 1
+file: 1
+is: 1
+line: 1
+new: 1
+punctuation: 1
+sample: 1
+text: 1
+this: 1
+too: 1
